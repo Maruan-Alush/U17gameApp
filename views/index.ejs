@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/css/style.css' />
+
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+
+    <form action="/easy" method="get">
+
+      <label>
+        <button id="easy" class="ghost-button" >Easy Level</button>
+      </label>
+
+    </form>
+    <form action="/medium" method="get">
+      <label>
+        <button id="medium" class="ghost-button" >Medium Level</button>
+      </label>
+    </form>
+
+    <form action="/hard" method="get">
+      <label>
+        <button id="hard" class="ghost-button" >Hard Level</button>
+      </label>
+    </form>
+
+  </body>
+</html>

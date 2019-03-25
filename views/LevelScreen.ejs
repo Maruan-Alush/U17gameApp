@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript" src="/javascripts/levelScript.js"></script>
+  <head>
+    <title><%= title.charAt(0).toUpperCase() + title.slice(1)%></title>
+    <link rel='stylesheet' href='/stylesheets/css/style.css' />
+
+  </head>
+  <body>
+    <h1><%= title.charAt(0).toUpperCase() + title.slice(1) %></h1>
+    <p>Welcome to the <%= title %> level!</p>
+
+    <p id="questionBox"></p>
+
+
+    <form action="/" method="get">
+      <label>
+        <button id="homeButton" class="ghost-button">Go Home</button>
+      </label>
+    </form>
+
+  </body>
+</html>
